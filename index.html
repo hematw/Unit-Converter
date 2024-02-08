@@ -10,21 +10,23 @@
 
 <body>
     <div class="container">
+
         <div class="input-container">
             <h1>Unit Converter</h1>
+
             <div class="input-box">
-                <input type="number" id="valueToConvert">
+                <input type="number" id="value-input">
             </div>
 
             <div class="input-box">
                 <span class="unit-box">
-                    <input type="radio" name="unit" id="metric" checked>
-                    <label for="metric">Metric to Imperial</label>
+                    <input type="radio" name="unit" id="to-metric" checked>
+                    <label for="to-metric">To Metric</label>
                 </span>
 
                 <spna class="unit-box">
-                    <input type="radio" name="unit" id="imperial">
-                    <label for="imperial">Imperial to Metric</label>
+                    <input type="radio" name="unit" id="to-imperial">
+                    <label for="to-imperial">To Imperial</label>
                 </spna>
             </div>
 
@@ -36,22 +38,23 @@
         <div class="conversions">
             <div class="box">
                 <h2>Length</h2>
-                <h1 class="len-value">000</h1>
-                <p class="len-unit">feets</p>
+                <h1 class="len-value">0.0</h1>
+                <p>Meters</p>
             </div>
 
             <div class="box">
                 <h2>Mass</h2>
-                <h1 class="mass-value">000</h1>
-                <p class="mass-unit">pounds</p>
+                <h1 class="mass-value">0.0</h1>
+                <p>Kilograms</p>
             </div>
 
             <div class="box">
                 <h2>Volume</h2>
-                <h1 class="vol-value">000</h1>
-                <p class="vol-unit">gallons</p>
+                <h1 class="vol-value">0.0</h1>
+                <p>Liters</p>
             </div>
         </div>
+
     </div>
     <script src="script.js"></script>
 </body>
