@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Conversion</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="input-container">
+            <h1>Unit Converter</h1>
+            <div class="input-box">
+                <input type="number" id="valueToConvert">
+            </div>
+
+            <div class="input-box">
+                <span class="unit-box">
+                    <input type="radio" name="unit" id="metric" checked>
+                    <label for="metric">Metric to Imperial</label>
+                </span>
+
+                <spna class="unit-box">
+                    <input type="radio" name="unit" id="imperial">
+                    <label for="imperial">Imperial to Metric</label>
+                </spna>
+            </div>
+
+            <div class="input-box">
+                <button class="convert-btn">Convert</button>
+            </div>
+        </div>
+
+        <div class="conversions">
+            <div class="box">
+                <h2>Length</h2>
+                <h1 class="len-value">000</h1>
+                <p class="len-unit">feets</p>
+            </div>
+
+            <div class="box">
+                <h2>Mass</h2>
+                <h1 class="mass-value">000</h1>
+                <p class="mass-unit">pounds</p>
+            </div>
+
+            <div class="box">
+                <h2>Volume</h2>
+                <h1 class="vol-value">000</h1>
+                <p class="vol-unit">gallons</p>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
