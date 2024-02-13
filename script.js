@@ -38,11 +38,11 @@ function toMetric(y) {
     lngValue.textContent = toMeter;
     lngValue.nextElementSibling.textContent = "Meters";
     
-    massValue.textContent = toLiter;
-    massValue.nextElementSibling.textContent = "Liters";
+    massValue.textContent = toKG;
+    massValue.nextElementSibling.textContent = "Kilograms";
 
-    volValue.textContent = toKG;
-    volValue.nextElementSibling.textContent = "Kilograms";
+    volValue.textContent = toLiter;
+    volValue.nextElementSibling.textContent = "Liters";
 
 
 }
